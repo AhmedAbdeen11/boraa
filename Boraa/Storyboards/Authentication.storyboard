@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Fm-3b-cgJ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Controller-->
+        <scene sceneID="qlP-Vj-Cmb">
+            <objects>
+                <viewController id="1Fm-3b-cgJ" customClass="LoginController" customModule="Boraa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bTq-EU-zY0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZc-v4-Zps">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6N-Jp-NFc" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="yn5-GO-xk7">
+                                                <rect key="frame" x="220" y="121" width="129" height="131"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="131" id="Y8P-PE-ggo"/>
+                                                    <constraint firstAttribute="width" constant="129" id="fTh-aY-jIP"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boraa" translatesAutoresizingMaskIntoConstraints="NO" id="fTU-D0-qdA">
+                                                <rect key="frame" x="153" y="200" width="87" height="52"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="9Vy-XN-Cdj"/>
+                                                    <constraint firstAttribute="width" constant="87" id="NHw-jG-mbp"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Medical Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eTe-FE-ehc">
+                                                <rect key="frame" x="30" y="322" width="333" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="IQY-wB-aJH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tZt-XL-dSQ">
+                                                <rect key="frame" x="30" y="402" width="333" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Vr8-2d-LNh"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTz-2L-asR">
+                                                <rect key="frame" x="75" y="502" width="242" height="44"/>
+                                                <color key="backgroundColor" name="Primary"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="0bh-Wb-da7"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Login">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="didTapLoginBtn:" destination="1Fm-3b-cgJ" eventType="touchUpInside" id="Fvk-PL-xlV"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="LTz-2L-asR" firstAttribute="top" secondItem="tZt-XL-dSQ" secondAttribute="bottom" constant="50" id="0Xu-dS-cJS"/>
+                                            <constraint firstAttribute="trailing" secondItem="LTz-2L-asR" secondAttribute="trailing" constant="76" id="1zx-sp-ml2"/>
+                                            <constraint firstItem="eTe-FE-ehc" firstAttribute="top" secondItem="yn5-GO-xk7" secondAttribute="bottom" constant="70" id="8ou-Sj-YFx"/>
+                                            <constraint firstItem="fTU-D0-qdA" firstAttribute="top" secondItem="F6N-Jp-NFc" secondAttribute="top" constant="200" id="GZT-Bq-CdN"/>
+                                            <constraint firstAttribute="trailing" secondItem="tZt-XL-dSQ" secondAttribute="trailing" constant="30" id="M2U-Kv-qvx"/>
+                                            <constraint firstItem="tZt-XL-dSQ" firstAttribute="top" secondItem="eTe-FE-ehc" secondAttribute="bottom" constant="30" id="PI6-mM-Cj2"/>
+                                            <constraint firstAttribute="trailing" secondItem="eTe-FE-ehc" secondAttribute="trailing" constant="30" id="YAe-zs-pgs"/>
+                                            <constraint firstItem="fTU-D0-qdA" firstAttribute="centerX" secondItem="F6N-Jp-NFc" secondAttribute="centerX" id="eQa-T8-9gh"/>
+                                            <constraint firstItem="yn5-GO-xk7" firstAttribute="leading" secondItem="fTU-D0-qdA" secondAttribute="trailing" constant="-20" id="iRf-TM-aa9"/>
+                                            <constraint firstItem="yn5-GO-xk7" firstAttribute="bottom" secondItem="fTU-D0-qdA" secondAttribute="bottom" id="iXc-rH-oNz"/>
+                                            <constraint firstItem="LTz-2L-asR" firstAttribute="leading" secondItem="F6N-Jp-NFc" secondAttribute="leading" constant="75" id="n8W-OD-sXh"/>
+                                            <constraint firstItem="tZt-XL-dSQ" firstAttribute="leading" secondItem="F6N-Jp-NFc" secondAttribute="leading" constant="30" id="sHA-sX-u1L"/>
+                                            <constraint firstItem="eTe-FE-ehc" firstAttribute="leading" secondItem="F6N-Jp-NFc" secondAttribute="leading" constant="30" id="wBX-7V-agK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="F6N-Jp-NFc" firstAttribute="width" secondItem="SZc-v4-Zps" secondAttribute="width" id="0FL-5V-Y78"/>
+                                    <constraint firstItem="F6N-Jp-NFc" firstAttribute="leading" secondItem="SZc-v4-Zps" secondAttribute="leading" id="1qA-ee-rWP"/>
+                                    <constraint firstItem="F6N-Jp-NFc" firstAttribute="top" secondItem="SZc-v4-Zps" secondAttribute="top" id="MbZ-6t-Xq6"/>
+                                    <constraint firstAttribute="trailing" secondItem="F6N-Jp-NFc" secondAttribute="trailing" id="bhf-UH-H2n"/>
+                                    <constraint firstAttribute="bottom" secondItem="F6N-Jp-NFc" secondAttribute="bottom" id="faT-MX-lIc"/>
+                                    <constraint firstItem="F6N-Jp-NFc" firstAttribute="height" secondItem="SZc-v4-Zps" secondAttribute="height" priority="250" id="v7K-ik-b7u"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2O4-i1-261"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="SZc-v4-Zps" firstAttribute="bottom" secondItem="2O4-i1-261" secondAttribute="bottom" id="0KP-69-0qs"/>
+                            <constraint firstItem="SZc-v4-Zps" firstAttribute="trailing" secondItem="2O4-i1-261" secondAttribute="trailing" id="FdG-r2-VJd"/>
+                            <constraint firstItem="SZc-v4-Zps" firstAttribute="top" secondItem="2O4-i1-261" secondAttribute="top" id="jHb-32-RYE"/>
+                            <constraint firstItem="SZc-v4-Zps" firstAttribute="leading" secondItem="2O4-i1-261" secondAttribute="leading" id="xWg-yt-L00"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="medicalNumberTextField" destination="eTe-FE-ehc" id="s2K-Z8-lTg"/>
+                        <outlet property="phoneNumberTextField" destination="tZt-XL-dSQ" id="SQG-eV-Caq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yG2-m5-YFK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="boraa" width="195" height="196"/>
+        <image name="ic_logo" width="538" height="596"/>
+        <namedColor name="Background">
+            <color red="0.96078437566757202" green="0.96078437566757202" blue="0.96078437566757202" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.11082541197538376" green="0.5668339729309082" blue="0.59777671098709106" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
