@@ -40,13 +40,13 @@ class AppointmentsController: UIViewController {
     // MARK: - Actions
     
     @IBAction func didTapCancel(_ sender: UIButton) {
-        let confirmAlert = UIAlertController(title: "", message: "Are you sure you want to cancel this appointment?", preferredStyle: UIAlertController.Style.alert)
+        let confirmAlert = UIAlertController(title: "", message: NSLocalizedString("cancel_appointment_confirm", comment: ""), preferredStyle: UIAlertController.Style.alert)
 
-        confirmAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { (action: UIAlertAction!) in
+        confirmAlert.addAction(UIAlertAction(title: NSLocalizedString("yes", comment: ""), style: .default, handler: { (action: UIAlertAction!) in
             self.cancelBook(bookId: sender.tag)
         }))
 
-        confirmAlert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
+        confirmAlert.addAction(UIAlertAction(title: NSLocalizedString("no", comment: ""), style: .default, handler: nil))
 
         present(confirmAlert, animated: true, completion: nil)
     }
@@ -65,7 +65,7 @@ class AppointmentsController: UIViewController {
                 self.books.append(contentsOf: books)
                 self.appointmentsTableView.reloadData()
             }, onError: { error in
-                Utility.showAlertNew(message: "Unknown Error!", context: self)
+                Utility.showAlertNew(message: NSLocalizedString("unknown_error", comment: ""), context: self)
             })
         .disposed(by: disposeBag)
     }
@@ -81,9 +81,9 @@ class AppointmentsController: UIViewController {
             .subscribe(onCompleted: {
                 Utility.hideProgressDialog(view: self.view)
                 self.getMyBooks()
-                let alert = UIAlertController(title: "", message: "Appointment cancelled...", preferredStyle: .alert)
+                let alert = UIAlertController(title: "", message: NSLocalizedString("appointment_cancelled", comment: ""), preferredStyle: .alert)
                 
-                let okAction = UIAlertAction(title: "Okay", style: UIAlertAction.Style.default) {
+                let okAction = UIAlertAction(title: NSLocalizedString("okay", comment: ""), style: UIAlertAction.Style.default) {
                         UIAlertAction in
                     
                     }
@@ -93,7 +93,7 @@ class AppointmentsController: UIViewController {
                 
             }, onError: { error in
                 Utility.hideProgressDialog(view: self.view)
-                Utility.showAlertNew(message: "Unknown Error!", context: self)
+                Utility.showAlertNew(message: NSLocalizedString("unknown_error", comment: ""), context: self)
             })
         .disposed(by: disposeBag)
     }
@@ -133,7 +133,7 @@ extension AppointmentsController: UITableViewDelegate, UITableViewDataSource {
         cell.rootView.backgroundColor = .white
         cell.rootView.layer.cornerRadius = 13
         cell.dayLabel.text = book.day!
-        cell.dateTimeLabel.text = "\(book.dateFormatted!) | \(book.time!)"
+        cell.dateTimeLabel.text = "\(book.dateFormatted!) | \(book.timeFormatted!)"
         cell.clinicLabel.text = book.clinic!.name!
         
         cell.cancelBtn.tag = book.id!

@@ -1,0 +1,41 @@
+"validate_login" = "Please fill all the details";
+
+"login_success" = "Login success...";
+
+"okay" = "Okay";
+
+"login_failed" = "Login failed. Please make sure of the medical number and the phone number";
+
+"unknwon_error" = "Unknown Error!";
+
+"appointment_confirmed" = "Appointment confirmed...";
+
+"confirm_appointment" = "Are you sure you want to confirm this appointment?";
+
+"yes" = "Yes";
+
+"no" = "No";
+
+"cancel" = "Cancel";
+
+"cancel_appointment_confirm" = "Are you sure you want to cancel this appointment?";
+
+"appointment_cancelled" = "Appointment cancelled...";
+
+"appointment_rescheduled" = "Appointment rescheduled";
+
+"appointment_booked" = "Appointment booked";
+
+"select_clinic" = "Please select the clinic";
+
+"select_date" = "Please select date";
+
+"added_to_waiting_list_message" = "Sent Succesfully. We will notify you once there is an appointment available";
+
+"please_select_time" = "Please select time";
+
+"logout_msg" = "Are you sure you want to logout?";
+
+"change_language" = "Change language";
+
+"restart_application" = "Please restart the application...";

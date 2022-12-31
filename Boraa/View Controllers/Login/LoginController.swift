@@ -37,7 +37,7 @@ class LoginController: UIViewController {
     private func validateForm() -> Bool {
         
         if(medicalNumberTextField.text!.isEmpty || phoneNumberTextField.text!.isEmpty){
-            Utility.showAlertNew(message: "Please enter your email and password", context: self)
+            Utility.showAlertNew(message: NSLocalizedString("validate_login", comment: ""), context: self)
             return false
         }
         
@@ -65,9 +65,9 @@ class LoginController: UIViewController {
                 
                 Utility.hideProgressDialog(view: self.view)
                 
-                let alert = UIAlertController(title: "", message: "Login success...", preferredStyle: .alert)
+                let alert = UIAlertController(title: "", message: NSLocalizedString("login_success", comment: ""), preferredStyle: .alert)
                 
-                let okAction = UIAlertAction(title: "Okay", style: UIAlertAction.Style.default) {
+                let okAction = UIAlertAction(title: NSLocalizedString("okay", comment: ""), style: UIAlertAction.Style.default) {
                         UIAlertAction in
                         Utility.openMainPageController()
                     }
@@ -77,7 +77,7 @@ class LoginController: UIViewController {
                 
             }, onError: { (error) in
                 Utility.hideProgressDialog(view: self.view)
-                Utility.showAlertNew(message: "Login failed. Please make sure of the medical number and the phone number", context: self)
+                Utility.showAlertNew(message: NSLocalizedString("login_failed", comment: ""), context: self)
             })
         .disposed(by: disposeBag)
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DA42ED8C2123A8A324DDA3 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FE521FDE76B3152C874FC1 /* Pods_OneSignalNotificationServiceExtension.framework */; };
 		0A492EDB2947579F0093084A /* SelectClinicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A492EDA2947579F0093084A /* SelectClinicController.swift */; };
 		0A492EDD29475A9A0093084A /* SelectClinicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A492EDC29475A9A0093084A /* SelectClinicViewModel.swift */; };
 		0A492EDF29475AE20093084A /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A492EDE29475AE20093084A /* Clinic.swift */; };
@@ -20,7 +21,6 @@
 		0A93DFA929462067007832CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFA729462067007832CC /* LaunchScreen.storyboard */; };
 		0A93DFBA2946236F007832CC /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFB92946236F007832CC /* Theme.xcassets */; };
 		0A93DFBC29462446007832CC /* JejuHallasan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFBB29462441007832CC /* JejuHallasan-Regular.ttf */; };
-		0A93DFBE294626BA007832CC /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFBD294626BA007832CC /* Authentication.storyboard */; };
 		0A93DFC829462A33007832CC /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFC429462A2E007832CC /* Inter-Black.ttf */; };
 		0A93DFC929462A35007832CC /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFBF29462A2E007832CC /* Inter-Bold.ttf */; };
 		0A93DFCB29462A3A007832CC /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A93DFC029462A2E007832CC /* Inter-ExtraBold.ttf */; };
@@ -48,6 +48,12 @@
 		0A93DFF629465828007832CC /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93DFF529465828007832CC /* AppointmentsViewModel.swift */; };
 		0A93DFF929465E9D007832CC /* MedicalFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93DFF829465E9D007832CC /* MedicalFileController.swift */; };
 		0A93DFFB29465EA7007832CC /* MedicalFileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A93DFFA29465EA7007832CC /* MedicalFileViewModel.swift */; };
+		0A9AA89A29587596003E5ACA /* WaitingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AA89929587596003E5ACA /* WaitingListController.swift */; };
+		0A9AA89C295875B8003E5ACA /* WaitingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AA89B295875B8003E5ACA /* WaitingListViewModel.swift */; };
+		0AD8918A2958873D00BA0966 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD891892958873D00BA0966 /* NotificationService.swift */; };
+		0AD8918E2958873D00BA0966 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0AD891872958873D00BA0966 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AD8919D295895C400BA0966 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8919F295895C400BA0966 /* Authentication.storyboard */; };
+		0AD891A4295895FD00BA0966 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AD891A6295895FD00BA0966 /* Localizable.strings */; };
 		0AD93A17294B408200598CFA /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD93A16294B408200598CFA /* TimeCell.swift */; };
 		0AD93A19294B5F5F00598CFA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD93A18294B5F5F00598CFA /* Book.swift */; };
 		0AD93A1C294B654300598CFA /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD93A1B294B654300598CFA /* AppointmentCell.swift */; };
@@ -58,6 +64,30 @@
 		0AF4A15529476D0D00FB39A6 /* SelectDateTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4A15429476D0D00FB39A6 /* SelectDateTimeViewModel.swift */; };
 		1B65ED67754063485B0E09FB /* Pods_Boraa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBE40F31214FF318077F28 /* Pods_Boraa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD8918C2958873D00BA0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A93DF9129462066007832CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD891862958873D00BA0966;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AD8918F2958873D00BA0966 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0AD8918E2958873D00BA0966 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A492EDA2947579F0093084A /* SelectClinicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectClinicController.swift; sourceTree = "<group>"; };
@@ -75,7 +105,6 @@
 		0A93DFAA29462067007832CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A93DFB92946236F007832CC /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		0A93DFBB29462441007832CC /* JejuHallasan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JejuHallasan-Regular.ttf"; sourceTree = "<group>"; };
-		0A93DFBD294626BA007832CC /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		0A93DFBF29462A2E007832CC /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 		0A93DFC029462A2E007832CC /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		0A93DFC129462A2E007832CC /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
@@ -103,6 +132,18 @@
 		0A93DFF529465828007832CC /* AppointmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewModel.swift; sourceTree = "<group>"; };
 		0A93DFF829465E9D007832CC /* MedicalFileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalFileController.swift; sourceTree = "<group>"; };
 		0A93DFFA29465EA7007832CC /* MedicalFileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalFileViewModel.swift; sourceTree = "<group>"; };
+		0A9AA89929587596003E5ACA /* WaitingListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingListController.swift; sourceTree = "<group>"; };
+		0A9AA89B295875B8003E5ACA /* WaitingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingListViewModel.swift; sourceTree = "<group>"; };
+		0AD891872958873D00BA0966 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD891892958873D00BA0966 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0AD8918B2958873D00BA0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD891932958885400BA0966 /* Boraa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Boraa.entitlements; sourceTree = "<group>"; };
+		0AD8919B295895A700BA0966 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		0AD8919C295895A800BA0966 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0AD891A0295895D700BA0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authentication.storyboard; sourceTree = "<group>"; };
+		0AD891A1295895E100BA0966 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Authentication.strings; sourceTree = "<group>"; };
+		0AD891A5295895FD00BA0966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0AD891A72958960000BA0966 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0AD93A16294B408200598CFA /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
 		0AD93A18294B5F5F00598CFA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		0AD93A1B294B654300598CFA /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
@@ -111,8 +152,11 @@
 		0AD93A26294B8E0C00598CFA /* SlideshowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowViewModel.swift; sourceTree = "<group>"; };
 		0AD93A28294B9DAE00598CFA /* MedicalFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalFile.swift; sourceTree = "<group>"; };
 		0AF4A15429476D0D00FB39A6 /* SelectDateTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateTimeViewModel.swift; sourceTree = "<group>"; };
+		1436126F92E2B4E56194CE94 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		96FE521FDE76B3152C874FC1 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBBE40F31214FF318077F28 /* Pods_Boraa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boraa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAA829FADAFC5EB823C7E7F /* Pods-Boraa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boraa.debug.xcconfig"; path = "Target Support Files/Pods-Boraa/Pods-Boraa.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AA24BCB44328B5FAD55621 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		FE74C416D94FE354756ADCF6 /* Pods-Boraa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boraa.release.xcconfig"; path = "Target Support Files/Pods-Boraa/Pods-Boraa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +166,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B65ED67754063485B0E09FB /* Pods_Boraa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD891842958873D00BA0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DA42ED8C2123A8A324DDA3 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				0A93DF9B29462066007832CC /* Boraa */,
+				0AD891882958873D00BA0966 /* OneSignalNotificationServiceExtension */,
 				0A93DF9A29462066007832CC /* Products */,
 				414C7BD7F9A368079F2F168C /* Pods */,
 				117B4626E481276221F9FFA3 /* Frameworks */,
@@ -170,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				0A93DF9929462066007832CC /* Boraa.app */,
+				0AD891872958873D00BA0966 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +231,8 @@
 		0A93DF9B29462066007832CC /* Boraa */ = {
 			isa = PBXGroup;
 			children = (
+				0AD891932958885400BA0966 /* Boraa.entitlements */,
+				0AD89194295894E500BA0966 /* Localization */,
 				0A93DFB0294621C1007832CC /* Delegates */,
 				0A93DFB1294621C9007832CC /* Helpers */,
 				0A93DFB2294621D0007832CC /* Network */,
@@ -225,7 +281,7 @@
 			children = (
 				0A93DFA229462066007832CC /* Main.storyboard */,
 				0A93DFA729462067007832CC /* LaunchScreen.storyboard */,
-				0A93DFBD294626BA007832CC /* Authentication.storyboard */,
+				0AD8919F295895C400BA0966 /* Authentication.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -233,6 +289,7 @@
 		0A93DFB4294621E6007832CC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0A9AA89829587575003E5ACA /* Waiting list */,
 				0AD93A22294B8DD700598CFA /* Slideshow */,
 				0A492EE3294763B70093084A /* Select DataTime */,
 				0A492ED9294757740093084A /* Select Clinic */,
@@ -338,6 +395,32 @@
 			path = "Medical File";
 			sourceTree = "<group>";
 		};
+		0A9AA89829587575003E5ACA /* Waiting list */ = {
+			isa = PBXGroup;
+			children = (
+				0A9AA89929587596003E5ACA /* WaitingListController.swift */,
+				0A9AA89B295875B8003E5ACA /* WaitingListViewModel.swift */,
+			);
+			path = "Waiting list";
+			sourceTree = "<group>";
+		};
+		0AD891882958873D00BA0966 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0AD891892958873D00BA0966 /* NotificationService.swift */,
+				0AD8918B2958873D00BA0966 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		0AD89194295894E500BA0966 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				0AD891A6295895FD00BA0966 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		0AD93A15294B406900598CFA /* cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +458,7 @@
 			isa = PBXGroup;
 			children = (
 				AFBBE40F31214FF318077F28 /* Pods_Boraa.framework */,
+				96FE521FDE76B3152C874FC1 /* Pods_OneSignalNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -384,6 +468,8 @@
 			children = (
 				BAAA829FADAFC5EB823C7E7F /* Pods-Boraa.debug.xcconfig */,
 				FE74C416D94FE354756ADCF6 /* Pods-Boraa.release.xcconfig */,
+				1436126F92E2B4E56194CE94 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				D5AA24BCB44328B5FAD55621 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -400,15 +486,35 @@
 				0A93DF9629462066007832CC /* Frameworks */,
 				0A93DF9729462066007832CC /* Resources */,
 				3FEDB8CF1DDB27C1DBC4E88B /* [CP] Embed Pods Frameworks */,
+				0AD8918F2958873D00BA0966 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0AD8918D2958873D00BA0966 /* PBXTargetDependency */,
 			);
 			name = Boraa;
 			productName = Boraa;
 			productReference = 0A93DF9929462066007832CC /* Boraa.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0AD891862958873D00BA0966 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD891922958873D00BA0966 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				3915BF44FB97A094ECD36314 /* [CP] Check Pods Manifest.lock */,
+				0AD891832958873D00BA0966 /* Sources */,
+				0AD891842958873D00BA0966 /* Frameworks */,
+				0AD891852958873D00BA0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 0AD891872958873D00BA0966 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -423,6 +529,9 @@
 					0A93DF9829462066007832CC = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					0AD891862958873D00BA0966 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 0A93DF9429462066007832CC /* Build configuration list for PBXProject "Boraa" */;
@@ -432,6 +541,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 0A93DF9029462066007832CC;
 			productRefGroup = 0A93DF9A29462066007832CC /* Products */;
@@ -439,6 +549,7 @@
 			projectRoot = "";
 			targets = (
 				0A93DF9829462066007832CC /* Boraa */,
+				0AD891862958873D00BA0966 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -448,7 +559,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A93DFBE294626BA007832CC /* Authentication.storyboard in Resources */,
+				0AD8919D295895C400BA0966 /* Authentication.storyboard in Resources */,
 				0A93DFCC29462A3C007832CC /* Inter-ExtraLight.ttf in Resources */,
 				0A93DFA929462067007832CC /* LaunchScreen.storyboard in Resources */,
 				0A93DFCB29462A3A007832CC /* Inter-ExtraBold.ttf in Resources */,
@@ -461,14 +572,44 @@
 				0A93DFCF29462A43007832CC /* Inter-Regular.ttf in Resources */,
 				0A93DFCE29462A41007832CC /* Inter-Medium.ttf in Resources */,
 				0A93DFCD29462A3F007832CC /* Inter-Light.ttf in Resources */,
+				0AD891A4295895FD00BA0966 /* Localizable.strings in Resources */,
 				0A93DFBC29462446007832CC /* JejuHallasan-Regular.ttf in Resources */,
 				0A93DFC829462A33007832CC /* Inter-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD891852958873D00BA0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3915BF44FB97A094ECD36314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3FEDB8CF1DDB27C1DBC4E88B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,8 +664,10 @@
 				0A93DFE329462FDC007832CC /* LoginController.swift in Sources */,
 				0A93DFD629462F85007832CC /* Utility.swift in Sources */,
 				0A93DFF929465E9D007832CC /* MedicalFileController.swift in Sources */,
+				0A9AA89C295875B8003E5ACA /* WaitingListViewModel.swift in Sources */,
 				0A93DFF629465828007832CC /* AppointmentsViewModel.swift in Sources */,
 				0A93DFD729462F85007832CC /* Extensions.swift in Sources */,
+				0A9AA89A29587596003E5ACA /* WaitingListController.swift in Sources */,
 				0AD93A24294B8DF900598CFA /* SlideshowController.swift in Sources */,
 				0AD93A17294B408200598CFA /* TimeCell.swift in Sources */,
 				0A93DFDF29462F8D007832CC /* NetworkManager.swift in Sources */,
@@ -552,13 +695,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AD891832958873D00BA0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD8918A2958873D00BA0966 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD8918D2958873D00BA0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD891862958873D00BA0966 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 0AD8918C2958873D00BA0966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0A93DFA229462066007832CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0A93DFA329462066007832CC /* Base */,
+				0AD8919B295895A700BA0966 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -567,8 +727,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				0A93DFA829462067007832CC /* Base */,
+				0AD8919C295895A800BA0966 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD8919F295895C400BA0966 /* Authentication.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD891A0295895D700BA0966 /* Base */,
+				0AD891A1295895E100BA0966 /* ar */,
+			);
+			name = Authentication.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD891A6295895FD00BA0966 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD891A5295895FD00BA0966 /* en */,
+				0AD891A72958960000BA0966 /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -578,6 +757,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -638,6 +818,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -692,10 +873,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAAA829FADAFC5EB823C7E7F /* Pods-Boraa.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Boraa/Boraa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = K8WX5Q5Q98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Boraa/Supporting Files/Info.plist";
@@ -705,13 +888,14 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boraa.Boraa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boraa.boraa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -723,10 +907,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE74C416D94FE354756ADCF6 /* Pods-Boraa.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Boraa/Boraa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = K8WX5Q5Q98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Boraa/Supporting Files/Info.plist";
@@ -736,14 +922,69 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boraa.Boraa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boraa.boraa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AD891902958873D00BA0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1436126F92E2B4E56194CE94 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8WX5Q5Q98;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boraa.boraa.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AD891912958873D00BA0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AA24BCB44328B5FAD55621 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8WX5Q5Q98;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boraa.boraa.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -767,6 +1008,15 @@
 			buildConfigurations = (
 				0A93DFAE29462067007832CC /* Debug */,
 				0A93DFAF29462067007832CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD891922958873D00BA0966 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD891902958873D00BA0966 /* Debug */,
+				0AD891912958873D00BA0966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -62,7 +62,7 @@ class SelectDateTimeController: UIViewController {
         calendarView.dataSource = self
         
         formatter.dateFormat = "yyyy-MM-dd"
-        selectedDate = formatter.string(from: Date())
+        selectedDate = formatter.string(from: Date().dayAfter)
     }
     
     // MARK: - Actions
@@ -79,7 +79,7 @@ class SelectDateTimeController: UIViewController {
                 rescheduleBook()
             }
         }else{
-            Utility.showAlertNew(message: "Please select time", context: self)
+            Utility.showAlertNew(message: NSLocalizedString("please_select_time", comment: ""), context: self)
         }
     }
     
@@ -101,7 +101,7 @@ class SelectDateTimeController: UIViewController {
                 self.timesCollectionView.reloadData()
             }, onError: { error in
                 Utility.hideProgressDialog(view: self.view)
-                Utility.showAlertNew(message: "Unknown Error!", context: self)
+                Utility.showAlertNew(message: NSLocalizedString("unknown_error", comment: ""), context: self)
             })
         .disposed(by: disposeBag)
     }
@@ -118,9 +118,9 @@ class SelectDateTimeController: UIViewController {
         viewModel.book(params: params)
             .subscribe(onCompleted: {
                 Utility.hideProgressDialog(view: self.view)
-                let alert = UIAlertController(title: "", message: "Appointment booked", preferredStyle: .alert)
+                let alert = UIAlertController(title: "", message: NSLocalizedString("appointment_booked", comment: ""), preferredStyle: .alert)
                 
-                let okAction = UIAlertAction(title: "Okay", style: UIAlertAction.Style.default) {
+                let okAction = UIAlertAction(title: NSLocalizedString("okay", comment: ""), style: UIAlertAction.Style.default) {
                         UIAlertAction in
                     self.navigationController?.popToRootViewController(animated: true)
                     }
@@ -130,7 +130,7 @@ class SelectDateTimeController: UIViewController {
                 
             }, onError: { error in
                 Utility.hideProgressDialog(view: self.view)
-                Utility.showAlertNew(message: "Unknown Error!", context: self)
+                Utility.showAlertNew(message: NSLocalizedString("unknown_error", comment: ""), context: self)
             })
         .disposed(by: disposeBag)
     }
@@ -147,9 +147,9 @@ class SelectDateTimeController: UIViewController {
         viewModel.rescheduleBook(params: params)
             .subscribe(onCompleted: {
                 Utility.hideProgressDialog(view: self.view)
-                let alert = UIAlertController(title: "", message: "Appointment rescheduled", preferredStyle: .alert)
+                let alert = UIAlertController(title: "", message: NSLocalizedString("appointment_rescheduled", comment: ""), preferredStyle: .alert)
                 
-                let okAction = UIAlertAction(title: "Okay", style: UIAlertAction.Style.default) {
+                let okAction = UIAlertAction(title: NSLocalizedString("okay", comment: ""), style: UIAlertAction.Style.default) {
                         UIAlertAction in
                     self.navigationController?.popToRootViewController(animated: true)
                     }
@@ -159,7 +159,7 @@ class SelectDateTimeController: UIViewController {
                 
             }, onError: { error in
                 Utility.hideProgressDialog(view: self.view)
-                Utility.showAlertNew(message: "Unknown Error!", context: self)
+                Utility.showAlertNew(message: NSLocalizedString("unknown_error", comment: ""), context: self)
             })
         .disposed(by: disposeBag)
     }
@@ -211,7 +211,7 @@ extension SelectDateTimeController: UICollectionViewDelegate, UICollectionViewDa
 extension SelectDateTimeController: FSCalendarDelegate, FSCalendarDataSource {
     
     func minimumDate(for calendar: FSCalendar) -> Date {
-        return Date()
+        return Date().dayAfter
     }
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {

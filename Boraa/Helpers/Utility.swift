@@ -14,7 +14,7 @@ class Utility {
     
     static func showAlertNew(message: String, context: UIViewController) {
         let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Okay", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: NSLocalizedString("okay", comment: ""), style: .cancel, handler: nil))
         
         context.present(alert, animated: true, completion: nil)
     }

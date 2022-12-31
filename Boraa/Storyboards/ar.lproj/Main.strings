@@ -1,0 +1,162 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0cl-oq-9GA"; */
+"0cl-oq-9GA.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0hX-2w-BJr"; */
+"0hX-2w-BJr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ENT CLINIC"; ObjectID = "1Hk-S4-hUt"; */
+"1Hk-S4-hUt.text" = "ENT CLINIC";
+
+/* Class = "UILabel"; text = "Medicines\nPrescriptions"; ObjectID = "1hV-RM-yfs"; */
+"1hV-RM-yfs.text" = "Medicines\nPrescriptions";
+
+/* Class = "UILabel"; text = "27 October, 2022   |  10:00 AM"; ObjectID = "3mi-jZ-fIP"; */
+"3mi-jZ-fIP.text" = "27 October, 2022   |  10:00 AM";
+
+/* Class = "UILabel"; text = "King Saud Medical City"; ObjectID = "4Dc-gW-lfJ"; */
+"4Dc-gW-lfJ.text" = "King Saud Medical City";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "597-td-6b6"; */
+"597-td-6b6.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7zO-ub-8hS"; */
+"7zO-ub-8hS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Appointment"; ObjectID = "9Bm-e3-oRr"; */
+"9Bm-e3-oRr.text" = "المقابلات";
+
+/* Class = "UILabel"; text = "Select Clinic"; ObjectID = "9qD-aV-bB0"; */
+"9qD-aV-bB0.text" = "اختار عيادة";
+
+/* Class = "UILabel"; text = "My Appointments"; ObjectID = "AHg-iE-aYj"; */
+"AHg-iE-aYj.text" = "مقابلاتي";
+
+/* Class = "UILabel"; text = "9:30"; ObjectID = "C2r-pq-oQL"; */
+"C2r-pq-oQL.text" = "9:30";
+
+/* Class = "UIButton"; normalTitle = "Book"; ObjectID = "CIv-1o-L1B"; */
+"CIv-1o-L1B.normalTitle" = "حجز";
+
+/* Class = "UILabel"; text = "Select Clinic"; ObjectID = "Fos-Ew-0ID"; */
+"Fos-Ew-0ID.text" = "اختار عيادة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GIF-iE-tbT"; */
+"GIF-iE-tbT.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HwA-pU-cgi"; */
+"HwA-pU-cgi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "InP-IO-5Ep"; */
+"InP-IO-5Ep.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Tuesday"; ObjectID = "IpA-5F-Zw1"; */
+"IpA-5F-Zw1.text" = "Tuesday";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lwd-8G-KE1"; */
+"Lwd-8G-KE1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Confirmed"; ObjectID = "MK4-5c-yro"; */
+"MK4-5c-yro.text" = "تم التأكيد";
+
+/* Class = "UILabel"; text = "Medical \nReport"; ObjectID = "N2B-9G-u4d"; */
+"N2B-9G-u4d.text" = "تقرير \n طبي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Nb2-br-3R0"; */
+"Nb2-br-3R0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Waiting List"; ObjectID = "OPb-fK-4JG"; */
+"OPb-fK-4JG.text" = "قائمة الانتظار";
+
+/* Class = "UILabel"; text = "Select Clinic"; ObjectID = "OfC-Gk-hd7"; */
+"OfC-Gk-hd7.text" = "اختار عيادة";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "Pb1-y3-JJv"; */
+"Pb1-y3-JJv.text" = "المقابلات";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PbM-Uu-aWX"; */
+"PbM-Uu-aWX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Book Appointment"; ObjectID = "QNz-3x-ue3"; */
+"QNz-3x-ue3.text" = "احجز مقابلة";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "TGj-qT-A5T"; */
+"TGj-qT-A5T.normalTitle" = "عودة";
+
+/* Class = "UILabel"; text = "Book Appointment"; ObjectID = "TuO-qZ-ar4"; */
+"TuO-qZ-ar4.text" = "احجز مقابلة";
+
+/* Class = "UILabel"; text = "Radiology\nResult"; ObjectID = "apc-21-8ta"; */
+"apc-21-8ta.text" = "Radiology\nResult";
+
+/* Class = "UILabel"; text = "Tuesday"; ObjectID = "bYE-Bh-OJg"; */
+"bYE-Bh-OJg.text" = "Tuesday";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "c6L-gV-Rlm"; */
+"c6L-gV-Rlm.text" = "الرئيسية";
+
+/* Class = "UILabel"; text = "King Saud Medical City"; ObjectID = "diF-lG-4nK"; */
+"diF-lG-4nK.text" = "King Saud Medical City";
+
+/* Class = "UILabel"; text = "Sick\nLeaves"; ObjectID = "dl6-P3-I1l"; */
+"dl6-P3-I1l.text" = "Sick\nLeaves";
+
+/* Class = "UILabel"; text = "CANCEL"; ObjectID = "fDp-0J-Gyx"; */
+"fDp-0J-Gyx.text" = "الغاء";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fPS-32-HT7"; */
+"fPS-32-HT7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Lab \nResults"; ObjectID = "g57-Uv-dap"; */
+"g57-Uv-dap.text" = "Lab \nResults";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hoR-uZ-e42"; */
+"hoR-uZ-e42.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Book Appointment"; ObjectID = "imU-we-O4p"; */
+"imU-we-O4p.text" = "حجز مقابلة";
+
+/* Class = "UILabel"; text = "ENT CLINIC"; ObjectID = "kls-sw-OZy"; */
+"kls-sw-OZy.text" = "ENT CLINIC";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kwy-cr-JfO"; */
+"kwy-cr-JfO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "27 October, 2022   |  10:00 AM"; ObjectID = "l9v-xo-3ZF"; */
+"l9v-xo-3ZF.text" = "27 October, 2022   |  10:00 AM";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "lYX-fa-4FF"; */
+"lYX-fa-4FF.normalTitle" = "استمرار";
+
+/* Class = "UILabel"; text = "Sick\nLeaves"; ObjectID = "m5b-aJ-gJ0"; */
+"m5b-aJ-gJ0.text" = "Sick\nLeaves";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "nAd-0x-Zua"; */
+"nAd-0x-Zua.text" = "مرحبا";
+
+/* Class = "UILabel"; text = "Upcoming Appointment"; ObjectID = "oRq-lJ-V15"; */
+"oRq-lJ-V15.text" = "المقابلات القادمة";
+
+/* Class = "UILabel"; text = "Book Appointment"; ObjectID = "pD3-V4-lOd"; */
+"pD3-V4-lOd.text" = "حجز مقابلة";
+
+/* Class = "UILabel"; text = "RESCHEDULE "; ObjectID = "wVj-Yg-mBR"; */
+"wVj-Yg-mBR.text" = "تغيير الموعد ";
+
+/* Class = "UIButton"; normalTitle = "Confirm Appointment"; ObjectID = "xCj-KX-iyy"; */
+"xCj-KX-iyy.normalTitle" = "تأكيد المقابلة";
+
+/* Class = "UILabel"; text = "Medical FIle"; ObjectID = "y06-Ar-YjJ"; */
+"y06-Ar-YjJ.text" = "الملف الطبي";
+
+/* Class = "UILabel"; text = "Select Clinic"; ObjectID = "yE3-cT-qRB"; */
+"yE3-cT-qRB.text" = "اختار عيادة";
+
+/* Class = "UIButton"; normalTitle = "Book at Waiting List"; ObjectID = "yhd-TH-hH8"; */
+"yhd-TH-hH8.normalTitle" = "حجز في قائمة الانتظار";
+
+/* Class = "UILabel"; text = "Medical File"; ObjectID = "yxG-ww-pKA"; */
+"yxG-ww-pKA.text" = "الملف الطبي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zWI-Rg-H04"; */
+"zWI-Rg-H04.normalTitle" = "Button";

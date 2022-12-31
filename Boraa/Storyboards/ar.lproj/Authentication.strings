@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "LTz-2L-asR"; */
+"LTz-2L-asR.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "Medical Number"; ObjectID = "eTe-FE-ehc"; */
+"eTe-FE-ehc.placeholder" = "الرقم التعريفي";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "tZt-XL-dSQ"; */
+"tZt-XL-dSQ.placeholder" = "رقم الهاتف";

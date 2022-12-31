@@ -74,6 +74,14 @@ class NetworkManager: NSObject {
             .ignoreElements()
     }
     
+    func bookAtWaitingList(params: [String: Any]) -> Completable {
+        return provider.rx
+            .request(.bookAtWaitingList(params: params))
+            .filterSuccessfulStatusAndRedirectCodes()
+            .asObservable()
+            .ignoreElements()
+    }
+    
     func myBooks() -> Single<String> {
         return provider.rx
             .request(.getMyBooks)

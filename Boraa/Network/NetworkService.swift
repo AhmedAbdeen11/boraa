@@ -21,6 +21,8 @@ public enum NetworkService {
     
     case book(params: [String: Any])
     
+    case bookAtWaitingList(params: [String: Any])
+    
     case getMyBooks
     
     case getMyUpcomingBooks
@@ -87,6 +89,9 @@ extension NetworkService: TargetType {
             case .book:
                 return "book"
             
+            case .bookAtWaitingList:
+                return "waiting"
+            
             case .getMyBooks:
                 return "my-books"
             
@@ -111,7 +116,7 @@ extension NetworkService: TargetType {
     public var method: Moya.Method {
         switch self {
         
-        case .register, .login, .myData, .getUserById, .getAvailableTimes, .book, .cancelBook, .rescheduleBook, .confirmBook, .getMedicalFiles:
+        case .register, .login, .myData, .getUserById, .getAvailableTimes, .book, .bookAtWaitingList, .cancelBook, .rescheduleBook, .confirmBook, .getMedicalFiles:
                 return .post
                 
             default:
@@ -140,6 +145,7 @@ extension NetworkService: TargetType {
              let .getUserById(params: params),
              let .getAvailableTimes(params: params),
              let .book(params: params),
+             let .bookAtWaitingList(params: params),
              let .cancelBook(params: params),
              let .rescheduleBook(params: params),
              let .confirmBook(params: params),

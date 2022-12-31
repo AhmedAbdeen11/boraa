@@ -10,18 +10,16 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>JejuHallasan-Regular</string>
-        <string>Inter-Black</string>
-        <string>Inter-Bold</string>
-        <string>Inter-ExtraBold</string>
-        <string>Inter-ExtraLight</string>
-        <string>Inter-Light</string>
-        <string>Inter-Medium</string>
-        <string>Inter-Regular</string>
-        <string>Inter-SemiBold</string>
-        <string>Inter-Thin</string>        
+		<string>Inter-Black</string>
+		<string>Inter-Bold</string>
+		<string>Inter-ExtraBold</string>
+		<string>Inter-ExtraLight</string>
+		<string>Inter-Light</string>
+		<string>Inter-Medium</string>
+		<string>Inter-Regular</string>
+		<string>Inter-SemiBold</string>
+		<string>Inter-Thin</string>
 	</array>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -41,5 +39,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>

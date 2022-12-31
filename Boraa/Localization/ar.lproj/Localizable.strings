@@ -1,0 +1,41 @@
+"validate_login" = "من افضل اكمل البيانات";
+
+"login_success" = "تم تسجيل الدخول بنجاح";
+
+"okay" = "حسنا";
+
+"login_failed" = "فشل تسجيل الدخول الرجاء التاكد من الرقم الطبي ورقم الهاتف";
+
+"unknwon_error" = "خطأ غير معروف";
+
+"appointment_confirmed" = "تم تأكيد المقابلة";
+
+"confirm_appointment" = "هل انت متأكيد تريد تأكيد هذه المقابلة؟";
+
+"yes" = "نعم";
+
+"no" = "لا";
+
+"cancel" = "الغاء";
+
+"cancel_appointment_confirm" = "هل انت متأكد تريد الغاء هذه المقابلة";
+
+"appointment_cancelled" = "تم الغاء المقابلة";
+
+"appointment_rescheduled" = "تم تعديل المقابلة";
+
+"appointment_booked" = "تم تأكيد حجزك";
+
+"select_clinic" = "من فضلك اختار العيادة";
+
+"select_date" = "من فضلك اختار التاريخ";
+
+"added_to_waiting_list_message" = "تم الارسال. سنرسلك اشعار عند وجود مقابلة متاحة.";
+
+"please_select_time" = "من فضلك اختار الوقت";
+
+"logout_msg" = "هل انت متأكد تريد تسجيل الخروج؟";
+
+"change_language" = "تغيير اللغة";
+
+"restart_application" = "من فضلك اغلق التطبيق وافتحه مرة ثانية";

@@ -6,7 +6,8 @@ struct Book : Mappable {
     var id : Int?
     var date : String?
     var time : String?
-    var isConfirmed : Bool?
+    var timeFormatted : String?
+    var isConfirmed : Int?
     var day: String?
     var dateFormatted : String?
     var clinic : Clinic?
@@ -24,6 +25,7 @@ struct Book : Mappable {
         id <- map["id"]
         date <- map["date"]
         time <- map["time"]
+        timeFormatted <- map["time_formatted"]
         isConfirmed <- map["is_confirmed"]
         day <- map["day"]
         dateFormatted <- map["date_formatted"]

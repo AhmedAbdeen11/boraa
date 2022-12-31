@@ -19,5 +19,13 @@ target 'Boraa' do
   pod 'BEMCheckBox'
   pod 'FSCalendar'
   pod "ImageSlideshow/Alamofire"
+  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'
+  pod "LocalizationSystem"
 
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'OneSignalXCFramework', '>= 3.0.0', '< 4.0'
 end
