@@ -178,7 +178,7 @@ extension WaitingListController: UITableViewDelegate, UITableViewDataSource {
 extension WaitingListController: FSCalendarDelegate, FSCalendarDataSource {
     
     func minimumDate(for calendar: FSCalendar) -> Date {
-        return Date()
+        return Date().dayAfter
     }
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {

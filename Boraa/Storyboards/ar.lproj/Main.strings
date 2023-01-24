@@ -24,13 +24,13 @@
 "7zO-ub-8hS.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Appointment"; ObjectID = "9Bm-e3-oRr"; */
-"9Bm-e3-oRr.text" = "المقابلات";
+"9Bm-e3-oRr.text" = "المواعيد";
 
 /* Class = "UILabel"; text = "Select Clinic"; ObjectID = "9qD-aV-bB0"; */
 "9qD-aV-bB0.text" = "اختار عيادة";
 
 /* Class = "UILabel"; text = "My Appointments"; ObjectID = "AHg-iE-aYj"; */
-"AHg-iE-aYj.text" = "مقابلاتي";
+"AHg-iE-aYj.text" = "مواعيدي";
 
 /* Class = "UILabel"; text = "9:30"; ObjectID = "C2r-pq-oQL"; */
 "C2r-pq-oQL.text" = "9:30";
@@ -72,19 +72,19 @@
 "OfC-Gk-hd7.text" = "اختار عيادة";
 
 /* Class = "UILabel"; text = "Appointments"; ObjectID = "Pb1-y3-JJv"; */
-"Pb1-y3-JJv.text" = "المقابلات";
+"Pb1-y3-JJv.text" = "المواعيد";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PbM-Uu-aWX"; */
 "PbM-Uu-aWX.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Book Appointment"; ObjectID = "QNz-3x-ue3"; */
-"QNz-3x-ue3.text" = "احجز مقابلة";
+"QNz-3x-ue3.text" = "احجز موعد";
 
 /* Class = "UIButton"; normalTitle = "Back"; ObjectID = "TGj-qT-A5T"; */
 "TGj-qT-A5T.normalTitle" = "عودة";
 
 /* Class = "UILabel"; text = "Book Appointment"; ObjectID = "TuO-qZ-ar4"; */
-"TuO-qZ-ar4.text" = "احجز مقابلة";
+"TuO-qZ-ar4.text" = "حجز موعد";
 
 /* Class = "UILabel"; text = "Radiology\nResult"; ObjectID = "apc-21-8ta"; */
 "apc-21-8ta.text" = "Radiology\nResult";
@@ -114,7 +114,7 @@
 "hoR-uZ-e42.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Book Appointment"; ObjectID = "imU-we-O4p"; */
-"imU-we-O4p.text" = "حجز مقابلة";
+"imU-we-O4p.text" = "حجز موعد";
 
 /* Class = "UILabel"; text = "ENT CLINIC"; ObjectID = "kls-sw-OZy"; */
 "kls-sw-OZy.text" = "ENT CLINIC";
@@ -135,16 +135,16 @@
 "nAd-0x-Zua.text" = "مرحبا";
 
 /* Class = "UILabel"; text = "Upcoming Appointment"; ObjectID = "oRq-lJ-V15"; */
-"oRq-lJ-V15.text" = "المقابلات القادمة";
+"oRq-lJ-V15.text" = "المواعيد القادمة";
 
 /* Class = "UILabel"; text = "Book Appointment"; ObjectID = "pD3-V4-lOd"; */
-"pD3-V4-lOd.text" = "حجز مقابلة";
+"pD3-V4-lOd.text" = "حجز موعد";
 
 /* Class = "UILabel"; text = "RESCHEDULE "; ObjectID = "wVj-Yg-mBR"; */
 "wVj-Yg-mBR.text" = "تغيير الموعد ";
 
 /* Class = "UIButton"; normalTitle = "Confirm Appointment"; ObjectID = "xCj-KX-iyy"; */
-"xCj-KX-iyy.normalTitle" = "تأكيد المقابلة";
+"xCj-KX-iyy.normalTitle" = "تأكيد الموعد";
 
 /* Class = "UILabel"; text = "Medical FIle"; ObjectID = "y06-Ar-YjJ"; */
 "y06-Ar-YjJ.text" = "الملف الطبي";

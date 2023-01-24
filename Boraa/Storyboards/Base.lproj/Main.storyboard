@@ -481,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnp-iL-MjR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="829.7709923664122" y="864.78873239436621"/>
+            <point key="canvasLocation" x="619" y="824"/>
         </scene>
         <!--Appointments Controller-->
         <scene sceneID="f0Z-fK-UOL">
@@ -787,7 +787,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oNW-dV-59Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="oct-nM-8cj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1722.9007633587785" y="-82.394366197183103"/>
+            <point key="canvasLocation" x="1625" y="70"/>
         </scene>
         <!--Select Clinic Controller-->
         <scene sceneID="Rfd-zV-lVO">
@@ -946,7 +946,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="du6-Qy-TuY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2603.8167938931297" y="33.802816901408455"/>
+            <point key="canvasLocation" x="2567" y="-2"/>
         </scene>
         <!--Medical File Controller-->
         <scene sceneID="SKg-Ur-WJh">
@@ -965,8 +965,8 @@
                                             <constraint firstAttribute="height" constant="300" id="Xt9-JP-0J2"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medical FIle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y06-Ar-YjJ">
-                                        <rect key="frame" x="29.999999999999993" y="200" width="99.333333333333314" height="20.666666666666657"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medical File" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y06-Ar-YjJ">
+                                        <rect key="frame" x="30" y="200" width="99" height="20.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1310,7 +1310,7 @@ Leaves</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XHF-Ng-Myf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1791.6030534351144" y="666.90140845070425"/>
+            <point key="canvasLocation" x="1286" y="780"/>
         </scene>
         <!--Slideshow Controller-->
         <scene sceneID="md4-Gf-U6M">
